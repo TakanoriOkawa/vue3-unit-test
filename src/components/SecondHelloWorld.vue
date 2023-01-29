@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { ref, reactive } from "vue";
 
 const num = ref(0);
@@ -13,7 +13,7 @@ const numUp = () => {
 
 const stateUp = () => {
   state.count++;
-}
+};
 </script>
 
 <template>
